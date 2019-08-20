@@ -1,7 +1,24 @@
-/ *
+/*
 Cet exemple stocke le premier numéro de carte lu dans une variable
 En commençant par l'approche d'une carte, une comparaison est faite entre la valeur lue de la carte et la valeur stockée.
 Les informations sont affichées sur un écran 16x2 via une communication I2C.
+
+---------------------------------------------------------------------------------------------
+Module/components      |  PIN  |   
+RED   LED              |  D4   |
+GREEN LED              |  D3   |
+LCD I2C                |       |
+RFID RFID MFRC522 :      
+3.3v                   |  3.3v |
+RST                    |  D9   |
+GND                    |  GND  |
+MISO                   |  D12  |
+MOSI                   |  D11  |
+SCK                    |  D13  |
+SDA                    |  D10 |  
+---------------------------------------------------------------------------------------------
+
+
 */
 
 // bibliotecas
